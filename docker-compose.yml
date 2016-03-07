@@ -1,0 +1,4 @@
+go-mips32:
+  #build: .
+  image: yongjhih/go-mips32
+  command: /bin/sh

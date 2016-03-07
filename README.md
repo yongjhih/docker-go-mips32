@@ -1,4 +1,8 @@
-This is the source code repository for the Go programming language.  
+```sh
+docker-compose run go-mips32
+```
+
+This is the source code repository for the Go programming language.
 
 For documentation about how to install and use Go,
 visit http://golang.org/ or load doc/install-source.html
@@ -13,7 +17,7 @@ under the BSD-style license found in the LICENSE file.
 
 --
 
-Binary Distribution Notes
+## Binary Distribution Notes
 
 If you have just untarred a binary Go distribution, you need to set
 the environment variable $GOROOT to the full path of the go
@@ -26,7 +30,9 @@ to your shell's path.
 For example, if you extracted the tar file into $HOME/go, you might
 put the following in your .profile:
 
-    export GOROOT=$HOME/go
-    export PATH=$PATH:$GOROOT/bin
+```sh
+export GOROOT=$HOME/go
+export PATH=$PATH:$GOROOT/bin
+```
 
 See doc/install.html for more details.
